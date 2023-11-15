@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody body;
+
+    private void Awake()
     {
-        
+        body = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        
+        HandleInput();
+    }
+
+    private void HandleInput()
+    {
+        float moveSpeed = .1f;
+        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * moveSpeed;
+        Vector3 oldPos = transform.position;
+        body.Move(oldPos + input, Quaternion.LookRotation(input));
     }
 }
