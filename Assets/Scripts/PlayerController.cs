@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("DEPENDENCIES")]
+    [SerializeField] PlayerMovementData movementData;
+
     private Rigidbody body;
 
     private void Awake()
@@ -16,9 +19,14 @@ public class PlayerController : MonoBehaviour
 
     private void HandleInput()
     {
-        float moveSpeed = .1f;
-        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * moveSpeed;
+        float moveSpeed = movementData.MoveSpeed;
+        float rotateSpeed = movementData.RotateSpeed;
+        string horizontal = movementData.HorizontalInputName;
+        string vertical = movementData.VerticalInputName;
+
         Vector3 oldPos = transform.position;
-        body.Move(oldPos + input, Quaternion.LookRotation(input));
+        Vector3 input = new Vector3(Input.GetAxis(horizontal), 0, Input.GetAxis(vertical));
+        Quaternion lookRotation = input == Vector3.zero ? transform.rotation : Quaternion.LookRotation(input * rotateSpeed);
+        body.Move((oldPos + input * moveSpeed), lookRotation);
     }
 }

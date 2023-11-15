@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e88fe807c304544881595b9c20f48b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementData: {fileID: 11400000, guid: e6bdb75e8e107ca409862b4c828b71a0, type: 2}
 --- !u!54 &6241228129952320407
 Rigidbody:
   m_ObjectHideFlags: 0
