@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d27408f5d0f9c43b3b8567b6d98fd0, type: 3}
-  m_Name: Player Movement Data
+  m_Script: {fileID: 11500000, guid: 6fff6d346d525e948868d24c29765b96, type: 3}
+  m_Name: Cam Data
   m_EditorClassIdentifier: 
-  moveSpeed: 0.1
-  rotateSpeed: 0.1
-  horizontalInputName: Horizontal
-  verticalInputName: Vertical
+  followOffset: {x: -0, y: 11.52, z: -11.94}
+  followSmoothTime: 0.5
+  maxFollowSpeed: 100
+  alongX: 1
+  alongY: 1
+  alongZ: 1
