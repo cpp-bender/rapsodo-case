@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &924850152421497857
 Transform:
@@ -119,7 +119,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &194757817798418516
 Transform:
@@ -156,7 +156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1560143258716576146
 Transform:
@@ -261,7 +261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7428713084958337313
 Transform:
@@ -366,7 +366,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7668266175769216761
 Transform:
@@ -469,7 +469,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8337407073639180701
 Transform:
@@ -505,7 +505,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3052840893408211840
 Transform:
@@ -553,7 +553,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1488978428213990373
 Transform:
@@ -659,7 +659,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3293214944639802000
 Transform:
@@ -776,7 +776,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2131939306228345164
 Transform:
@@ -881,7 +881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1411205644939695909
 Transform:
@@ -983,7 +983,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2707008057939874507
 Transform:
@@ -1021,7 +1021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &6148207356359469741
 Transform:
@@ -1126,7 +1126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8831481097760432895
 Transform:
@@ -1231,7 +1231,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &4751488656049674701
 Transform:
@@ -1332,6 +1332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.425272
@@ -1397,6 +1401,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1464,6 +1472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.836116
@@ -1529,6 +1541,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1596,6 +1612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.364195
@@ -1661,6 +1681,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1728,6 +1752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1793,6 +1821,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1860,6 +1892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.5610273
@@ -1925,6 +1961,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1992,6 +2032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.836116
@@ -2057,6 +2101,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
@@ -2124,6 +2172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.364195
@@ -2189,6 +2241,10 @@ PrefabInstance:
     - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_Name
       value: Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327812165541507483, guid: 26f225d041d244745a597564ed91445e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7094246138169625102, guid: 26f225d041d244745a597564ed91445e, type: 3}
       propertyPath: m_LocalScale.x

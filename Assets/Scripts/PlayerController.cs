@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] RunnerCameraController cameraController;
 
     private Rigidbody body;
+    private Vector3 oldPos = Vector3.zero;
+    private Quaternion oldRot = Quaternion.identity;  
 
     private void Awake()
     {
@@ -18,6 +20,12 @@ public class PlayerController : MonoBehaviour
     {
         cameraController.SetTarget(gameObject);
         cameraController.SetState(RunnerCameraState.FOLLOW);
+    }
+
+    private void Update()
+    {
+        oldPos = transform.position;
+        oldRot = transform.rotation;
     }
 
     private void FixedUpdate()
@@ -32,13 +40,11 @@ public class PlayerController : MonoBehaviour
         string horizontal = movementData.HorizontalInputName;
         string vertical = movementData.VerticalInputName;
 
-        Vector3 oldPos = transform.position;
-
         double horizontalValue = Math.Round(Input.GetAxis(horizontal), 2);
-        double verticalValue = Math.Round(Input.GetAxis(horizontal), 2);
+        double verticalValue = Math.Round(Input.GetAxis(vertical), 2);
 
-        Vector3 input = new Vector3(Input.GetAxis(horizontal), 0, Input.GetAxis(vertical));
-        Quaternion lookRotation = input == Vector3.zero ? transform.rotation : Quaternion.LookRotation(input * rotateSpeed);
+        Vector3 input = new Vector3((float)horizontalValue, 0, (float)verticalValue);
+        Quaternion lookRotation = input == Vector3.zero ? oldRot : Quaternion.LookRotation(input * rotateSpeed);
         body.Move((oldPos + input * moveSpeed), lookRotation);
     }
 }
